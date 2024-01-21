@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+
+	"name": "_",
+	"description": "_",
+	"version": "1.0",
+	"author": "No",
+
+	"background": {
+		"scripts": ["popup.js"],
+		"persistent": true
+	},
+
+	"permissions": [
+        "tabs",
+        "http://*/",
+        "https://*/",
+        "https://localhost/*",
+        "http://localhost/*"
+    ],
+	"browser_action": {
+		"default_icon": "bg.png",
+		"default_popup": "popup.html"
+	}
+}
